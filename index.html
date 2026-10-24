@@ -180,10 +180,11 @@ footer{padding-block:28px;font-size:13px;color:var(--muted)}
 }
 
 /* site notice (set in the control panel) */
-.notice{background:var(--tint);color:var(--ink);border-bottom:1px solid var(--line);font-size:14px}
-.notice .wrap{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding-block:10px}
-.notice b{font:600 12px/1 var(--mono);letter-spacing:.12em;color:var(--pen)}
-.notice a{font-weight:700}
+.notice{background:var(--tint);color:var(--ink);border-bottom:2px solid var(--pen);font-size:clamp(16px,1.6vw,18px);line-height:1.5}
+.notice .wrap{display:flex;gap:8px 14px;align-items:center;flex-wrap:wrap;padding-block:14px}
+.notice b{font:700 13px/1 var(--mono);letter-spacing:.12em;color:var(--pen-ink);background:var(--pen);padding:6px 9px;border-radius:3px}
+.notice #noticeText{font-weight:700}
+.notice a{font-weight:700;color:var(--pen)}
 </style>
 </head>
 <body>
