@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ESLBox">
+  <title>ESLBox</title>
+  <defs>
+    <linearGradient id="dt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DBBF8"/><stop offset="1" stop-color="#559FF0"/></linearGradient>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4C9AEE"/><stop offset="1" stop-color="#3584E0"/></linearGradient>
+    <linearGradient id="dr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F7AD6"/><stop offset="1" stop-color="#1F62BE"/></linearGradient>
+    <linearGradient id="dy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6F0FC"/></linearGradient>
+    <clipPath id="dc"><polygon points="256.00,46.00 429.21,146.00 429.21,346.00 256.00,446.00 82.79,346.00 82.79,146.00" stroke-linejoin="round" stroke-width="64.00" stroke="#000"/></clipPath>
+    <clipPath id="dT"><polygon points="256.00,246.00 -125.05,26.00 256.00,-194.00 637.05,26.00"/></clipPath>
+    <clipPath id="dL"><polygon points="256.00,246.00 -125.05,26.00 -125.05,466.00 256.00,686.00"/></clipPath>
+    <clipPath id="dR"><polygon points="256.00,246.00 256.00,686.00 637.05,466.00 637.05,26.00"/></clipPath>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="18.00"/></filter>
+  </defs>
+  <ellipse cx="256.00" cy="450.00" rx="156.00" ry="24.00" fill="#0E2A5C" opacity=".22" filter="url(#ds)"/>
+  <g>
+    <g clip-path="url(#dT)"><polygon points="256.00,46.00 429.21,146.00 429.21,346.00 256.00,446.00 82.79,346.00 82.79,146.00" fill="url(#dt)" stroke="url(#dt)" stroke-width="64.00" stroke-linejoin="round"/></g>
+    <g clip-path="url(#dL)"><polygon points="256.00,46.00 429.21,146.00 429.21,346.00 256.00,446.00 82.79,346.00 82.79,146.00" fill="url(#dl)" stroke="url(#dl)" stroke-width="64.00" stroke-linejoin="round"/></g>
+    <g clip-path="url(#dR)"><polygon points="256.00,46.00 429.21,146.00 429.21,346.00 256.00,446.00 82.79,346.00 82.79,146.00" fill="url(#dr)" stroke="url(#dr)" stroke-width="64.00" stroke-linejoin="round"/></g>
+    <path d="M148.61,184.00 L256.00,246.00 L363.39,184.00 M256.00,246.00 L256.00,370.00" fill="none" stroke="url(#dy)" stroke-width="34.00" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
