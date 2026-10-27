@@ -246,6 +246,11 @@ details p{margin-top:10px;color:var(--muted);max-width:52em}
 .flow li::before{content:counter(f) ".";font:600 14px var(--mono);margin-right:6px;opacity:.75}
 .contact .more{margin-top:36px;font-size:15px}
 footer a{color:inherit}
+footer .social{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+.social-t{font:600 13px/1 var(--sans);color:var(--ink);margin-right:4px}
+.soc{display:inline-flex;align-items:center;min-height:36px;padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink)!important;text-decoration:none;font-size:14px}
+.soc:hover,.soc:focus-visible{border-color:var(--ink)}
+.soc-line{background:#05843a;border-color:#05843a;color:#fff!important;font-weight:600}
 
 /* contact */
 .contact{background:var(--board);color:var(--board-ink);padding-block:60px}
@@ -448,7 +453,13 @@ footer{padding-block:28px;font-size:13px;color:var(--muted)}
   <div class="card" id="contactCard"></div>
 </div></section>
 </main>
-<footer><div class="wrap">ESLBox · vocab-quiz-maker 英檢詞彙測驗生成器 · <a href="privacy.html">隱私權政策</a> · <a href="#refund">退款政策</a> · 本產品為獨立開發的教學工具，與各考試主辦單位及教材出版社無關 · 畫面圖片取自程式輸出。</div></footer>
+<footer><div class="wrap social" aria-label="ESLBox 社群">
+<span class="social-t">追蹤 ESLBox</span>
+<a href="https://line.me/R/ti/p/@641hknmf" target="_blank" rel="noopener" class="soc soc-line">LINE 加好友・收新版通知</a>
+<a href="https://www.facebook.com/eslboxapp" target="_blank" rel="noopener" class="soc">Facebook</a>
+<a href="https://www.instagram.com/eslbox.app" target="_blank" rel="noopener" class="soc">Instagram</a>
+<a href="https://www.threads.com/@eslbox.app" target="_blank" rel="noopener" class="soc">Threads</a>
+</div><div class="wrap">ESLBox · vocab-quiz-maker 英檢詞彙測驗生成器 · <a href="privacy.html">隱私權政策</a> · <a href="#refund">退款政策</a> · 本產品為獨立開發的教學工具，與各考試主辦單位及教材出版社無關 · 畫面圖片取自程式輸出。</div></footer>
 
 <script>
 // ===== 銷售開關 =====
