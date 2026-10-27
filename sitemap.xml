@@ -13,6 +13,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://eslbox.app/blog/vocab-quiz-tips.html</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://eslbox.app/blog/generate-vocab-quiz-answer-key-10-seconds.html</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>yearly</changefreq>
