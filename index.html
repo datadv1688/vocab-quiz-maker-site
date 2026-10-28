@@ -564,5 +564,11 @@ var CONTACT={email:"datadv1688@gmail.com",line:"",phone:""};
 })();
 </script>
 
+<script>(function(){try{var K='eslbox_src',q=new URLSearchParams(location.search),s=q.get('s')||q.get('utm_source'),v=null;
+try{if(s){s=s.replace(/[^\w-]/g,'').slice(0,32);localStorage.setItem(K,JSON.stringify({s:s,t:Date.now()}))}v=JSON.parse(localStorage.getItem(K)||'null')}catch(e){v=s?{s:s,t:Date.now()}:null}
+if(v&&Date.now()-v.t>2592e6)v=null;var r=document.referrer,src=v?v.s:(r&&!/eslbox\.app/.test(r)?'ref-'+new URL(r).hostname.replace(/^(www|m|l|lm)\./,'').split('.')[0]:'direct');
+var api='https://motochen.pythonanywhere.com/api/visit';function send(k){try{navigator.sendBeacon(api,new Blob([JSON.stringify({s:src,p:location.pathname,k:k})],{type:'text/plain'}))}catch(e){}}
+send('view');document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a)return;var h=a.href||'';
+if(h.indexOf('apps.microsoft.com')>=0)send('store');else if(h.indexOf('/buy/')>=0){send('buy');if(!/[?&]s=/.test(h))a.href=h+(h.indexOf('?')<0?'?':'&')+'s='+encodeURIComponent(src)}},true)}catch(e){}})();</script>
 </body>
 </html>
