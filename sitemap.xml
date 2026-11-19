@@ -8,9 +8,15 @@
   </url>
   <url>
     <loc>https://eslbox.app/blog/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eslbox.app/blog/cambridge-yle-vocabulary-quiz-maker.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://eslbox.app/blog/gept-elementary-vocabulary-range-review-plan.html</loc>
